@@ -1,0 +1,6 @@
+gcp_pricing_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/gcp_pricing_data.csv
+  load_args:
+    index_col: 0
+
